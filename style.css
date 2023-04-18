@@ -1,0 +1,334 @@
+/* Roboto font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    height: 200vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin: 0 auto;
+    height: 78px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(64, 78, 237);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+header ul li a:hover {
+    text-decoration: underline 1.5px solid;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.nav-btn {
+    color: #000;
+    font-size: 13px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+/* main start here  */
+
+.main-screen-1 {
+    background-color: rgb(64, 78, 237);
+    /* height: 90vh; */
+    /* Bad practice */
+    height: 540px;
+    background-image: url('./images/clouds.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+}
+
+.main-screen-1-content {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 80%;
+    max-width: 1260px;
+}
+
+.main-screen-1-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    color: #fff;
+    width: 68%;
+    margin: 0 auto;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.main-screen-1-content p {
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    width: 79%;
+    margin: 0 auto;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.main-btns-div {
+    display: flex;
+    width: 690px;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.main-btns {
+    display: inline-block;
+    font-size: 20px;
+    padding: 13px 32px;
+    border-radius: 100px;
+}
+
+.download-btn {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.download-icon {
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+
+.open-btn {
+    background-color: rgb(35, 39, 42);
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+}
+
+.main-screen-234 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 115vh; */
+    /* height: 670px; */
+    padding: 115px 50px;
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.main-img-div {
+    width: 59%;
+}
+
+.main-img-div img {
+    width: 100%;
+    max-width: 678px;
+}
+
+.main-screen-234-content {
+    width: 34%;
+}
+
+.main-screen-234-content h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(35, 39, 42);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.main-screen-234-content p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgb(35, 39, 42);
+    width: 90%;
+}
+
+.bg-light-grey {
+    background-color: #f6f6f6;
+}
+
+.main-screen-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-screen-5 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(35, 39, 42);
+    width: 77%;
+    text-align: center;
+    line-height: 1;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+.main-screen-5 p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(35, 39, 42);
+    text-align: center;
+    width: 80%;
+    line-height: 1.7;
+}
+
+.stars-img-div {
+    background-image: url('./images/stars-img.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 570px;
+    height: 100px;
+    text-align: center;
+}
+
+.main-screen-5 img {
+    width: 92.3%;
+    margin-bottom: 50px;
+    max-width: 1180px;
+}
+
+.main-screen-5 h4 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sub-download-btn {
+    background-color: #5865f2;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+/* footer starts here */
+
+
+footer {
+    background-color: rgb(35, 39, 42);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15.5px;
+    font-weight: 300;
+    padding: 90px 40px 64px;
+}
+
+.footer-main {
+    display: flex;
+    padding-bottom: 40px;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.column1,
+.column2,
+.column3,
+.column4,
+.column5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column1 {
+    width: 34%;
+}
+
+.column2,
+.column3,
+.column4,
+.column5 {
+    width: 16.5%;
+}
+
+.column1 h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: #5865f2;
+    width: 240px;
+    line-height: 1;
+}
+
+.soical-links span {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.column-titles {
+    color: #5865f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.footer-main div span a {
+    color: #fff;
+}
+
+.footer-main div span a:hover {
+    text-decoration: underline 1px solid #fff;
+}
+
+.divder {
+    width: 100%;
+    height: 1px;
+    background-color: #5865f2;
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.footer-sub {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.footer-btn {
+    color: #fff;
+    background-color: rgb(88, 101, 242);
+    font-weight: 400;
+}
